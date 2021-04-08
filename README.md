@@ -9,3 +9,15 @@
             * Interoperable: Kotlin al ser creado por JetBrains lo decidieron hacer basado en la máquina virtual de Java, es decir puedes trabajar con Java y Kotlin en una aplicación ya que comparten la misma máquina virtual.
             * Versátil: podemos aplicarlo en diferentes tipos de aplicaciones. Del lado del servidor con Kotlin Server Side - Ktor, del lado Mobile Android y del lado web con KotlinJS.
             * Java usa javac y Kotlin usa kotlinc ambos al ser compilado se transforman en código ByteCode que es el código que lee la máquina virtual de Java (Java Virtual Machine)
+# Class#2    
+    Mi primer programa en Kotlin
+        Para empezar a configurar nuestro entorno de desarrollo necesitaremos varias herramientas:
+            * El SDK de Java ya que Kotlin está basado en Java
+            * IntelliJ IDEA el cual será nuestro editor de código el cual ya tiene un compilador de código.
+        A continuación te presentamos un Hola Mundo en Kotlin:
+            fun main (args: Array<String>) {  
+                println("Hola Platzi")  
+            }
+# Links
+    Try kotlinlang:
+        https://try.kotlinlang.org/#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt
