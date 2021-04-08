@@ -18,6 +18,35 @@
             fun main (args: Array<String>) {  
                 println("Hola Platzi")  
             }
+# Class#3
+    Variables vs. Objetos
+        * En Kotlin variables vs. objetos significa otra cosa en comparación a otros lenguajes de programación.
+        * Una variable es un espacio en memoria que nosotros reservamos para almacenar un solo dato.
+        * Un objeto es un espacio en memoria que es más complejo que una variable, se va a componer de otras variables y otros objetos, acciones, métodos y funcionalidades.
+        * En Kotlin todo será un objeto, evitaremos el tipo de datos variables, simples o sencillos (tipos primitivos). No debemos declarar valores primitivos (si podríamos pero no debemos), pero son definidos cuando no los usamos como objetos.
+        * Ejemplo de dato primitivo:
+            var i = 10
+            i = i * 2
+            println(i)
+        * Kotlin utiliza wrappers (clases envoltorio) para los números, esto se llama boxing.
+        * En los operadores de Kotlin debemos tratar todo como si fuera un objeto:
+            Expresión	 Función	        Se traduce a
+                a + b	    plus	            a.plus(b)
+                a - b	    minus               a.minus(b)
+                a * b	    times               a.times(b)
+                a / b	    div	                a.div(b)
+                a % b	    mod	                a.mod(b)
+                a += b	    a = a + b	        a.plusAssign(b)
+                a -= b	    a = a - b	        a.minusAssign(b)
+                a *= b	    a = a * b	        a.timesAssign(b)
+                a /= b	    a = a / b	        a.divAssign(b)
+                a %= b	    a = a % b	        a.modAssign(b)
+            Operador     Significado        Expresión       Se traduce a
+                +	        Suma unaria	        +a	            a.unaryPlus()
+                -	        Resta unaria        -a	            a.unaryMinus()
+                !	        Negación	        !a	            a.not()
+                ++	        Incremento	        ++a	            a.inc()
+                --	        Decremento	        --a	            a.dec()
 # Links
     Try kotlinlang:
         https://try.kotlinlang.org/#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt
